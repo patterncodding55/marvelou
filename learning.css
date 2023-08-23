@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    margin: 0;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
+.top-container {
+    background-color: #e4f9f9;
+    position: relative;
+    padding-top: 100px;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    color: #11999E;
+    font-family: 'Sacramento', cursive;
+    /* font-size: 562.5%; */
+    font-size: 90px;
+    /* line-height: 2;
+     100% = 16px
+    therefore to use 90px in% means 90/16 = 562.5%
+    same as the em.
+    ==> em or rem: 1em = 16px = 100%
+    => rem: this is the best way to set a standard fonts
+    => so as to not allow the current element to inherit from any parent like the body.
+    */
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.intro {
+    width: 40%;
+    margin: auto;
+}
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2.5em;
+    color: #11999E;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Merriweather', sans-serif;
+    color: #11999E;
+}
+.skill-row  {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-image1 {
+    width: 30%;
+    border-radius: 50%;
+    /* margin-left: 40%; */
+    float: left;
+    margin-right: 30%;
+}
+.skill-image2 {
+    width: 30%;
+    border-radius: 50%;
+    /* margin-left: 40%; */
+    float: right;
+    margin-left: 30%;
+}
+.contact-me {
+    width: 40%;
+    margin:  40px auto 60px;
+}
+.btn {
+    background-color: #11999E;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #ffff;
+}
+/* pseudo selector */
+.btn:hover {
+    background-color: #30e3cb;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 20px 0;
+}
+.copyright {
+    color: #EAf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.footer-link {
+    color: #11999E;
+    margin: 10px 20px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px;
+}
+
+/* hr {
+    height: 2px;
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted; 
+    border-color: grey;
+    border-width: 7px;
+} */
